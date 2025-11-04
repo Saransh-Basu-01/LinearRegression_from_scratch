@@ -1,8 +1,8 @@
-# 📈 Linear Regression From Scratch
+# 📈 Linear Regression From Scratch (Simple, Multiple, and Polynomial)
 
-This repository contains the implementation of **Simple Linear Regression** and **Multiple Linear Regression** algorithms built entirely from scratch using **Python** and its fundamental libraries (**NumPy** and **Pandas**), without relying on high-level machine learning libraries like `scikit-learn`.
+This repository contains the implementation of **Simple Linear Regression**, **Multiple Linear Regression**, and **Polynomial Regression** algorithms built entirely from scratch using **Python** and its fundamental libraries (**NumPy** and **Pandas**), without relying on high-level machine learning libraries like `scikit-learn`.
 
-The goal of this project is to provide a deep understanding of the mathematical and algorithmic principles behind Linear Regression.
+The goal of this project is to provide a deep understanding of the mathematical and algorithmic principles behind Linear Regression and its powerful variants.
 
 ---
 
@@ -10,6 +10,7 @@ The goal of this project is to provide a deep understanding of the mathematical 
 
 * **Simple Linear Regression:** Implementation using the Ordinary Least Squares (OLS) method.
 * **Multiple Linear Regression:** Implementation capable of handling multiple features/predictors.
+* **Polynomial Regression:** Implementation for modeling **non-linear relationships** by transforming input features into polynomial terms.
 * **Detailed Jupyter Notebooks:** Step-by-step code and explanations for the model construction, training, and prediction processes.
 * **Real-world Dataset:** Uses a simple `placement.csv` dataset for demonstration.
 
@@ -25,6 +26,7 @@ The project is organized into several Jupyter Notebooks, each focusing on a spec
 | `SimpleLinearRegression.ipynb` | An additional notebook for Simple Linear Regression examples or comparisons. |
 | `multiple_linear_regression.ipynb` | Implementation of Multiple Linear Regression. |
 | `Sctrach_multiple_linear_regression.ipynb` | Another notebook detailing the steps for Multiple Linear Regression from scratch. (Note: Please check the spelling, it might be a typo for "Scratch"). |
+| `polynomial_regression.ipynb` | Implementation of **Polynomial Regression** to model curved data by creating polynomial features. |
 | `placement.csv` | The dataset used across the notebooks for training and evaluation. |
 
 ---
@@ -57,7 +59,8 @@ To run the notebooks locally, you need a Python environment with Jupyter install
 
 Open any of the Jupyter Notebooks (`*.ipynb`) to explore the code. The notebooks are designed to be run sequentially cell-by-cell.
 
-* **Simple Linear Regression:** Focus on calculating the slope and intercept using the formulas derived from minimizing the Sum of  Mean Squared Errors (SSE).
+* **Simple Linear Regression:** Focus on calculating the slope and intercept using the formulas derived from minimizing the Sum of Mean Squared Errors (SSE).
 * **Multiple Linear Regression:** Focus on using matrix algebra (e.g., the Normal Equation) to find the optimal weight vector.
+* **Polynomial Regression:** Explore how to transform features (e.g., $x \to [x, x^2, x^3, ...]$) and then apply Multiple Linear Regression to fit non-linear data.
 
 Feel free to experiment with the `placement.csv` data or integrate your own dataset into the notebooks.
